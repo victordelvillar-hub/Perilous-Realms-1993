@@ -2440,11 +2440,18 @@ int go_direction(struct char_data *ch, int dir)
 
  ***********************************************************************/
 
-#define SISYPHUS_MAX_LEVEL 9
+#define SISYPHUS_MAX_LEVEL 50
 
 /* This is the highest level of PC that can enter.  The highest level
    monster currently in the section is 14th.  It should require a fairly
-   large party to sweep the section. */
+   large party to sweep the section.
+
+   Was 9, which matched the 1993 economy where a new character started
+   with 1 experience point and the zone's 47,349 exp carried it from
+   level 1 to almost 8.  The 2014 creation grant (act.wizard.c, 100,000
+   exp) now drops every mult-1.0 class straight to level 11, so the cap
+   shut the zone to the characters it was built for.  Raised to 50 to
+   match how the later PR played. */
 
 int sisyphus(struct char_data *ch, int cmd, char *arg)
 {
