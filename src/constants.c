@@ -1092,11 +1092,19 @@ struct str_app_type str_app[31] = {
 	{  5,11,1130, 40 },
 	{  6,12,1440, 40 },
 	{  7,14,1750, 40 }, /* 25            */
-	{  1, 3, 280, 22 }, /* 18/01-50      */
-	{  2, 3, 305, 24 }, /* 18/51-75      */
-	{  2, 4, 330, 26 }, /* 18/76-90      */
-	{  2, 5, 380, 28 }, /* 18/91-99      */
-	{  3, 6, 480, 30 }  /* 18/100   (30) */
+	{  8,16,2100, 42 }, /* 26 */
+	{  9,17,2500, 44 }, /* 27 */
+	{  9,19,3000, 46 }, /* 28 */
+	{ 10,20,3600, 48 }, /* 29 */
+	{ 11,22,4300, 50 }  /* 30 */
+	/* 26-30 were DikuMUD's leftover 18/01-50 .. 18/100 percentile rows.
+	   GET_STR is clamped to MAX(30, raw), so stacking strength gear past
+	   25 dropped you INTO them: str 30 gave +3/+6 where str 25 gave
+	   +7/+14, and wield_w 30 where 25 gave 40.  Rescaled to continue the
+	   real curve.  carry_w is vestigial -- CAN_CARRY_W is commented out
+	   in utils.h and carrying is driven by CAN_CARRY_M instead -- but the
+	   column is kept consistent anyway.  No mob in the world has strength
+	   above 24, so this is a player-only change. */
 };
 
 /* [dex] skillapply (thieves only) */
