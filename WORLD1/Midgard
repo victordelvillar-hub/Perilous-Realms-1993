@@ -1,7 +1,7 @@
 
 0
 {
-  name { The Fountain at Market Plaza }
+  name { Above Fountain }
   desc {
 "   You are standing on the Market Plaza, the famous Plaza of Midgard.
 People scurry across the granite stone as they move from shop to shop.
@@ -35,13 +35,13 @@ has a map of the area etched into it.
 :............... ...........`--- :  : ---'.. ... .  .        Centre           :
 :..........................Shrine of Neutrality..... . . 	}
   }
-  flags { peaceful, nosteal, no_magic, rent_room, fast_moves, mapable }
+  flags { peaceful, nosteal, no_magic, fast_moves, mapable }
   exits {
 	to { n, 1 }
 	to { e, 3 }
 	to { s, 5 }
 	to { w, 7 }
-	to { d, Midgard_trail:49 }
+	to { d, 380 }
   }
 }
 
@@ -5920,5 +5920,70 @@ endlessly...
 	to { s, Graveyard1:0 }
 	  info { door, closed }
 	  keywords { gate" }
+  }
+}
+
+380
+{
+  name { The Fountain }
+  desc {
+"   Cool air rises from the water.  The fountain fills a round chamber hewn
+from the bedrock beneath the Market Plaza, its basin lit from below by a
+green light nobody has ever explained.  Stone stairs climb back up to the
+plaza.  Four doorways open off the chamber: an inn to the north, the
+insurance office east, the mortuary west, and the donation room south.
+  }
+  flags { peaceful, nosteal, no_magic, fast_moves, mapable, indoors }
+  exits {
+	to { u, 0 }
+	to { n, 381 }
+	to { e, 382 }
+	to { w, 383 }
+	to { s, Midgard_trail:49 }
+  }
+}
+
+381
+{
+  name { The Underfountain Inn }
+  desc {
+"   Low beams, long tables, and the sound of the fountain through the wall.
+The innkeeper keeps a ledger and a ring of keys, and will see your things
+into storage and you into a bed.  Rent here and your gear is safe.  Quit
+anywhere else and you will leave it lying on the ground for whoever walks
+past next.
+  }
+  flags { peaceful, nosteal, rent_room, indoors, mapable }
+  exits {
+	to { s, 380 }
+  }
+}
+
+382
+{
+  name { The Insurance Office }
+  desc {
+"   A narrow room, a counter, and a wall of pigeonholes stuffed with paper.
+The agent here sells tokens against your death and holds the property of
+those who could not pay their storage.  Ask him to LIST what he has of
+yours.
+  }
+  flags { peaceful, nosteal, indoors, mapable }
+  exits {
+	to { w, 380 }
+  }
+}
+
+383
+{
+  name { The Mortuary }
+  desc {
+"   Cold, clean, and quiet.  Slabs line both walls, most of them empty.
+Whatever the dead were carrying when they fell is brought here and kept
+a while, against the day the dead come back for it.
+  }
+  flags { peaceful, nosteal, indoors, mapable }
+  exits {
+	to { e, 380 }
   }
 }

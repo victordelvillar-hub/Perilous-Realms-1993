@@ -189,6 +189,6 @@ floor.
   }
   flags { no_mob, indoors, nosteal }
   exits {
-	to { u, Midgard:0 }
+	to { n, Midgard:380 }
   }
 }
