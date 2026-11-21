@@ -1451,7 +1451,7 @@ void do_attribute(struct char_data *ch, char *argument, int cmd)
 	  GET_HITROLL(ch), GET_DAMROLL(ch));
   if (IsClass(ch,ASSASSIN))
     sendf(ch,"You base chance of assasination is %d.\n",
-		get_skill(ch,SKILL_ASSASINATE));
+		get_skill(ch,SKILL_ASSASSINATE));
 
   /*
   **   by popular demand -- affected stuff

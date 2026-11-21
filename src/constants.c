@@ -204,7 +204,7 @@ char *spell_wear_off_msg[] = {
   "You feel much more calm",
   "!subterfuge",
   "!hitall",
-  "!assasinate",
+  "!assassinate",
   "!appraise",
   "!extra attack one",
   "!extra attack two",

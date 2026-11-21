@@ -196,7 +196,7 @@ char *spells[]=
    "*berserk",
    "*subterfuge",
    "*hitall",
-   "*assasinate",
+   "*assassinate",
    "*appraise",
    "*extra attack one",	
    "*extra attack two",
@@ -245,7 +245,7 @@ char *skills[]=
    "berserk",             /* 17 */
    "subterfuge",          /* 18 */
    "hitall",              /* 19 */
-   "assasinate one",      /* 20 */
+   "assassinate one",      /* 20 */
    "appraise",            /* 21 */
    "extra attack one",    /* 22 */
    "extra attack two",    /* 23 */
@@ -266,20 +266,20 @@ char *skills[]=
    "backstab eight",      /* 38 */
    "backstab nine",       /* 39 */
    "backstab ten",        /* 40 */
-   "assasinate two",      /* 41 */
-   "assasinate three",    /* 42 */
-   "assasinate four",     /* 43 */
-   "assasinate five",     /* 44 */
-   "assasinate six",      /* 45 */
-   "assasinate seven",    /* 46 */
-   "assasinate eight",    /* 47 */
-   "assasinate nine",     /* 48 */
-   "assasinate ten",      /* 49 */
-   "assasinate eleven",   /* 50 */
-   "assasinate twelve",   /* 51 */
-   "assasinate thirteen", /* 52 */
-   "assasinate fourteen", /* 53 */
-   "assasinate fifteen",  /* 54 */
+   "assassinate two",      /* 41 */
+   "assassinate three",    /* 42 */
+   "assassinate four",     /* 43 */
+   "assassinate five",     /* 44 */
+   "assassinate six",      /* 45 */
+   "assassinate seven",    /* 46 */
+   "assassinate eight",    /* 47 */
+   "assassinate nine",     /* 48 */
+   "assassinate ten",      /* 49 */
+   "assassinate eleven",   /* 50 */
+   "assassinate twelve",   /* 51 */
+   "assassinate thirteen", /* 52 */
+   "assassinate fourteen", /* 53 */
+   "assassinate fifteen",  /* 54 */
    "retreat",		  /* 55 */
    "dual wield",          /* 56 */
    "examine wards",       /* 57 */

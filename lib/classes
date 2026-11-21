@@ -25,31 +25,31 @@ MINSAVE:  40 20 35 55 25                   *
 
 SKILLS                  Lvl Diff Cost Gld Max Prereq
 backstab               |  1|  1 |    |   | 95|
-assasinate one         |  2|  1 |    |   | 95|
+assassinate one         |  2|  1 |    |   | 95|
 hide                   |  5|  1 |    |   | 95|
-assasinate two         |  6|  1 |    |   | 95|
+assassinate two         |  6|  1 |    |   | 95|
 backstab one           |  7|  1 |    |   | 95|
-assasinate three       | 11|  1 |    |   | 95|
-assasinate four        | 17|  1 |    |   | 95|
+assassinate three       | 11|  1 |    |   | 95|
+assassinate four        | 17|  1 |    |   | 95|
 backstab two           | 17|  1 |    |   | 95|
-assasinate five        | 24|  2 |  35|   | 95|
+assassinate five        | 24|  2 |  35|   | 95|
 backstab three         | 27|  1 |    |   | 95|
-assasinate six         | 32|  2 |  50|   | 95|
+assassinate six         | 32|  2 |  50|   | 95|
 backstab four          | 37|  2 |  35|   | 95|
-assasinate seven       | 41|  2 |  65|   | 95|
+assassinate seven       | 41|  2 |  65|   | 95|
 backstab five          | 47|  3 |  80|   | 95|
-assasinate eight       | 51|  3 | 155|   | 95|
+assassinate eight       | 51|  3 | 155|   | 95|
 dual wield             | 50|  4 |  30|   | 90|
 backstab six           | 57|  3 | 155|   | 95|
-assasinate nine        | 62|  4 | 155|   | 95|
-assasinate ten         | 74|  4 | 305|   | 95|
+assassinate nine        | 62|  4 | 155|   | 95|
+assassinate ten         | 74|  4 | 305|   | 95|
 backstab seven         | 80|  3 | 305|   | 90|
-assasinate eleven      | 87|  5 | 455|   | 95|
-assasinate twelve      |101|  6 | 505|   | 95|
+assassinate eleven      | 87|  5 | 455|   | 95|
+assassinate twelve      |101|  6 | 505|   | 95|
 backstab eight         |120|  4 | 605|   | 80|
-assasinate thirteen    |121|  6 |1205|   | 95|
-assasinate fourteen    |142|  6 |2005|   | 95|
-assasinate fifteen     |164|  7 |2505|   | 95|
+assassinate thirteen    |121|  6 |1205|   | 95|
+assassinate fourteen    |142|  6 |2005|   | 95|
+assassinate fifteen     |164|  7 |2505|   | 95|
 sneak                  |190|  9 |4505|   | 40|
 backstab nine          |220|  4 | 805|   | 70|
 backstab ten           |320|  4 |1405|   | 60|

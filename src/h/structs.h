@@ -42,8 +42,8 @@ typedef char           *string;
 #define MAX_CLASS 32
 #define MAX_SNOOP 5
 #define MAX_KILL_KEEP 100
-#define ASSASINATE_LEVEL_GAIN 5
-#define MAX_ASSASINATE_SKILL 15
+#define ASSASSINATE_LEVEL_GAIN 5
+#define MAX_ASSASSINATE_SKILL 15
 
 /* EVENT types */
 #define EV_ROOM_FLAG    1

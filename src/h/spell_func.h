@@ -226,7 +226,7 @@ struct spell_info_type spell_info[] = {
 /*185*/ {  0, STA, V | G, IG,           NULL}, /* skill berserk */
 /*186*/ {  0, STA, V | G, IG,           NULL}, /* skill subterfuge */
 /*187*/ {  0, STA, V | G, IG,           NULL}, /* skill hitall */
-/*188*/ {  0, STA, V | G, IG,           NULL}, /* skill assasinate */
+/*188*/ {  0, STA, V | G, IG,           NULL}, /* skill assassinate */
 /*189*/ {  0, STA, V | G, IG,           NULL}, /* skill appraise */
 /*190*/ {  0, STA, V | G, IG,                NULL},
 /*191*/ {  0, STA, V | G, IG,                NULL},

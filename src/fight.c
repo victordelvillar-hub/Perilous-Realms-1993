@@ -907,19 +907,19 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
 	int need;
         int roll,i;
 
-    /* Each of the fifteen assasinate skills that PASSES its check raises the
+    /* Each of the fifteen assassinate skills that PASSES its check raises the
        threshold.  The comparison used to be "<", so a failed check raised it
-       instead -- practising assasinate made you worse at assassinating, and a
+       instead -- practising assassinate made you worse at assassinating, and a
        level-1 assassin killed more often than a maxed one.  */
     need=0;
-    if (get_skill(ch,SKILL_ASSASINATE)>=number(1,101)) need=1;
-    for (i=SKILL_ASSASINATE2; i<=SKILL_ASSASINATE15; i++)
+    if (get_skill(ch,SKILL_ASSASSINATE)>=number(1,101)) need=1;
+    for (i=SKILL_ASSASSINATE2; i<=SKILL_ASSASSINATE15; i++)
 	if (get_skill(ch,i)>=number(1,101)) need++;
     need+=((GetMaxLevel(ch)-GetMaxLevel(victim))/10);
     roll=number(1,100);
     if (roll<=need) {
 	dam=GET_HIT(victim)+11;
-	send_to_char("BINGO! You assasinated it!\n",ch);
+	send_to_char("BINGO! You assassinated it!\n",ch);
     }
   }
 
