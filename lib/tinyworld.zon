@@ -3076,7 +3076,123 @@ Reserved area 3~
 S
 #150
 Southern Lands~
-15999 30 0
+15999 20 2
+*
+* ---- the approach: ancient path, darkened forest, the bridge
+*
+M 0 15801 2 15801	the owl
+M 0 15802 2 15803	the huge eagle
+M 0 15800 3 15805	the wilkey
+M 0 15804 2 15806	the Festering Charik
+M 0 15800 3 15808	the wilkey
+M 0 15802 2 15809	the huge eagle
+M 0 15803 1 15807	the Skexie Reject -- 'makes his home in this pit'
+M 0 15808 4 15812	Skexie Guard on the bridge
+M 0 15814 4 15813	Skexie Guard at the palace entrance
+*
+* ---- the palace: named chambers
+*
+M 0 15819 1 15821	Palthor the Skexie Sergeant
+E 1 15808 1 16	  a champions halberd
+E 1 15828 1 6	  a Skexie Helm
+M 0 15820 1 15822	Wegendel the Skexie Illusionist
+E 1 15829 1 12	  a Skexie Robe
+M 0 15805 1 15824	the Ghost of Brackenred
+M 0 15821 1 15825	Crandel the Skexie Mage
+E 1 15831 1 17	  a Purple Shard
+M 0 15822 1 15827	Alastair the Skexie Leader
+E 1 15805 1 17	  a magical Skexie feather
+E 1 15832 1 3	  a Skexie Medallion
+E 1 15830 1 5	  a black Skexie Suit
+M 0 15823 1 15828	Turendac the Skexie High Mage
+E 1 15826 1 3	  a Skexie ankh
+M 0 15818 1 15819	the Skexie Altar Boy at the Mysterious Altar
+G 1 15801 1	  the Skexie ankh key
+M 0 15825 1 15836	the Skexie Jester
+E 1 15806 1 3	  a fiery orange cloak
+M 0 15826 1 15837	the Skexie Magister
+M 0 15827 1 15839	the Skexie Scribe
+E 1 15809 1 13	  a feathered belt
+M 0 15828 1 15840	the Skexie Bard
+M 0 15829 2 15841	the Skexie Lair Guard
+G 1 15802 1	  the Skexie Palace key
+E 1 15807 1 6	  a spiked helm
+M 0 15829 2 15844	the Skexie Lair Guard
+M 0 15830 1 15830	the Mulichort in A Cacophony Of Voices
+M 0 15810 1 15847	the Skexie Matron in the Counsel Room
+E 1 15804 1 6	  a Skexie headdress
+M 0 15813 1 15846	the Ancient Mantern in the Feeding Tank
+M 0 15832 1 15848	the Champion of Rugrat at his statue
+M 0 15831 1 15849	the Champion of Queeklor at his statue
+M 0 15815 1 15850	the Ancient Skexie in the Master's Sanctuary
+E 1 15825 1 9	  Skexie Gauntlets
+*
+* ---- the quarters
+*
+M 0 15812 2 15855	the Fledgling Skexie
+G 1 15822 1	  a feathery trinket
+M 0 15833 3 15860	a Bachelor Skexie
+M 0 15833 3 15861	a Bachelor Skexie
+M 0 15836 2 15862	the Skexie Waiter in the Dining Room
+E 1 15803 1 16	  a large wooden spoon
+M 0 15817 2 15863	the Neathar Workman in the Storage Room
+M 0 15836 2 15864	the Skexie Waiter in the Kitchen
+M 0 15816 1 15865	the Neathar Supervisor
+M 0 15834 2 15866	a Gentleman Skexie
+E 1 15821 1 5	  a suit of feathery body armor
+M 0 15834 2 15867	a Gentleman Skexie
+M 0 15835 2 15869	an Adolescent Skexie
+M 0 15835 2 15870	an Adolescent Skexie
+M 0 15807 2 15872	a secrant
+M 0 15807 2 15873	a secrant
+*
+* ---- the maidens' wing -- Maiden and Nanny wander
+*
+M 0 15809 2 15880	the Skexie Maiden
+M 0 15809 2 15881	the Skexie Maiden
+M 0 15811 1 15883	the Skexie Nanny
+M 0 15824 2 15884	the Skexie Child
+E 1 15827 1 8	  Skexie Thieves boots
+O 0 15823 1 15880	a sexy silk teddy
+O 0 15824 1 15881	a sexy pair of silk boxers
+*
+* ---- the Gelfling warren, below the fireplace
+*
+M 0 15838 2 15903	the Blink Dog at the bottom of the slide
+M 0 15851 1 15904	Feuq the Gelfling
+M 0 15852 1 15904	Dasillea the Gelfling
+M 0 15853 1 15904	Thrack the Gelfling
+M 0 15854 1 15904	Driscol the Gelfling
+M 0 15855 1 15904	Haag the Gelfling
+E 1 15820 1 17	  Haag's Pied Piper flute
+M 0 15844 1 15910	the Gelfling Cleric
+E 1 15813 1 3	  a Gelfling cloak
+G 1 15810 1	  a sky blue potion
+G 1 15811 1	  a blistering red hot potion
+M 0 15839 3 15911	the Striped Bechemel
+M 0 15847 1 15912	the Mad Gelfling
+M 0 15845 1 15913	Gilkey
+M 0 15846 1 15914	the Gelfling Weaponsmaster
+E 1 15812 1 16	  an ice pike
+M 0 15838 2 15920	the Blink Dog
+M 0 15837 3 15921	the Gelfling Child
+M 0 15850 3 15921	the Porgi
+M 0 15843 2 15922	the Gelfling Guardsman in the Armory
+M 0 15849 2 15923	the Beautiful Gelfling in the Leather Shop
+E 1 15819 1 12	  a bechamel hide
+M 0 15840 3 15925	the Polkadotted Bechemel
+M 0 15848 2 15930	the Warrior Gelfling
+M 0 15843 2 15930	the Gelfling Guardsman
+M 0 15841 3 15931	the Herringbone Bechemel
+M 0 15842 2 15932	the Midnight Bechemel at the Ice Pool
+E 1 15860 1 11	  a Skexie Midnight shield
+M 0 15849 2 15933	the Beautiful Gelfling in the Kitchen
+M 0 15842 2 15934	the Midnight Bechemel in the Cold Chamber
+O 0 15818 1 15934	a pair of Gelfling snow boots
+O 0 15814 1 15921	a yellow tulip
+O 0 15815 1 15921	a red tulip
+O 0 15816 1 15904	a blue tulip
+O 0 15817 1 15912	a black tulip
 S
 #160
 Road To Malvaria~
