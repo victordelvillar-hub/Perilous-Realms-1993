@@ -297,7 +297,7 @@ void stat_obj(struct char_data*ch,struct obj_data *j)
   }
   
   sprintbit(j->obj_flags.wear_flags,wear_bits,buf);
-  sendf(ch,"Can be worn on :\n",buf);
+  sendf(ch,"Can be worn on : %s\n",buf);
   
   sprintbit(j->obj_flags.extra_flags,extra_bits,buf);
   sendf(ch,"Extra flags: %s\n", buf);
@@ -444,6 +444,16 @@ void stat_obj(struct char_data*ch,struct obj_data *j)
   for (i=0;i<MAX_OBJ_AFFECT;i++) 
     if (j->affected[i].location!=APPLY_NONE) {
     sprinttype(j->affected[i].location,apply_types,buf2);
+    /* RESISTANCE/SUSCEPTIBILITY/IMMUNITY carry a bitmask of damage types,
+       not a number -- decode it instead of printing the raw value. */
+    if (j->affected[i].location==APPLY_IMMUNE ||
+        j->affected[i].location==APPLY_SUSC ||
+        j->affected[i].location==APPLY_M_IMMUNE) {
+      extern char *immunity_names[];
+      char buf3[MAX_STRING_LENGTH];
+      sprintbit((unsigned long)j->affected[i].modifier,immunity_names,buf3);
+      sendf(ch,"    Affects : %s : %s\n", buf2, buf3);
+    } else
     sendf(ch,"    Affects : %s By %d\n", buf2,j->affected[i].modifier);
   }			
 }
