@@ -49,6 +49,7 @@
 #define Mirkwood1 15100
 #define Mirkwood2 15200
 #define Mirkwood3 15300
+#define Skexie 15797
 #define Road_malvaria 16000
 #define trash2 16200
 #define dems_area 17000

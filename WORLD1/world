@@ -153,6 +153,9 @@
 #offset Mirkwood3
 #include <Mirkwood3>
 
+#offset Skexie
+#include <Skexie>
+
 #offset Road_malvaria
 #include <Road_malvaria>
 

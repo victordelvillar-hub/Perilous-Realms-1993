@@ -486,7 +486,7 @@ the west.
 	  desc { Sand as far as the eye can see.}
 	to { e, 37 }
 	  desc { Sand as far as the eye can see.}
-	to { s, 44 }
+	to { s, Skexie:0 }
 	  desc { Sand as far as the eye can see.}
   }
 }
