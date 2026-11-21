@@ -674,7 +674,7 @@ int ReadBlock(FILE *f, char *buf)
 {
 	int ch;
 	int nesting;
-	int done;
+	int done = 0;
 
 	while ((ch = fgetc(f)) != EOF && !done) done = (ch == '{');
 	if (ch == EOF) return(0);
