@@ -35,7 +35,7 @@ has a map of the area etched into it.
 :............... ...........`--- :  : ---'.. ... .  .        Centre           :
 :..........................Shrine of Neutrality..... . . 	}
   }
-  flags { peaceful, nosteal, no_magic, fast_moves, mapable }
+  flags { nosteal, fast_moves, mapable }
   exits {
 	to { n, 1 }
 	to { e, 3 }
