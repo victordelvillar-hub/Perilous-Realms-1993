@@ -3080,13 +3080,16 @@ Southern Lands~
 *
 * ---- the approach: ancient path, darkened forest, the bridge
 *
-M 0 15801 2 15801	the owl
-M 0 15802 2 15803	the huge eagle
-M 0 15800 3 15805	the wilkey
-M 0 15804 2 15806	the Festering Charik
-M 0 15800 3 15808	the wilkey
-M 0 15802 2 15809	the huge eagle
+* The forest is one corridor: 15805-15806-15808-15809-15810, no way round it.
+* Aggressives go in the dead ends (the two trees, the pit) so the walk in is
+* survivable for the level the Gelfling side is pitched at.
+M 0 15800 3 15801	the wilkey -- dead-end tree, off the path
+M 0 15800 3 15803	the wilkey -- dead-end tree, off the path
+M 0 15801 2 15805	the owl -- corridor, passive
+M 0 15802 2 15808	the huge eagle -- corridor, passive
+M 0 15802 2 15809	the huge eagle -- corridor, passive
 M 0 15803 1 15807	the Skexie Reject -- 'makes his home in this pit'
+M 0 15804 2 15807	the Festering Charik -- aggressive, down in the pit
 M 0 15808 4 15812	Skexie Guard on the bridge
 M 0 15814 4 15813	Skexie Guard at the palace entrance
 *
