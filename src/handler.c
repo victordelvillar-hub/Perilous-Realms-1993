@@ -99,7 +99,12 @@ int isname(char *str, char *namelist)
   
   for (i=0; i<argc; i++) {
     for (j=0; j<xargc; j++) {
-      if (0==str_cmp(argv[i],xargv[j])) {
+      /* A typed word matches a keyword it is a prefix of, so `kill bech'
+         finds the Bechemel.  xargv[j] is NULLed once consumed and
+         is_abbrev would walk off that pointer, so test it first.
+         Ending the argument with `.' still demands an exact match. */
+      if (xargv[j] && (exact ? (0==str_cmp(argv[i],xargv[j]))
+			     : is_abbrev(argv[i],xargv[j]))) {
 	xargv[j] = NULL;
 	break;
       }
